@@ -1,0 +1,15 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+/* Example: Add base styles or custom classes here if needed */
+@theme{
+  --primary-light: oklch(0.92 0.0472 88.3);
+  --primary-dark: oklch(0.39 0.0561 196.83);
+  --acent-coral: oklch(0.79 0.1048 49.37);
+  --accent-aqua: oklch(0.77 0.093 199.79);
+  --neutral-gray: oklch(0.75 0.0304 254.72);
+  --neutral-dark: oklch(0.32 0 0);
+  --montserrat: "Montserrat", "sans-serif";
+  --lora: "Lora", "serif";
+}
+
