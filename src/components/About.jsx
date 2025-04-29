@@ -1,5 +1,5 @@
 import React from 'react';
-// import profilePic from '../assets/harry-profile.jpg'; // Add your profile picture
+import profilePic from '../assets/harry-profile.png'; 
 
 const About = () => {
   const skills = [
@@ -21,8 +21,7 @@ const About = () => {
           {/* Optional: Profile Picture with funky shape */}
           <div className="w-48 h-48 md:w-64 md:h-64 flex-shrink-0 mb-8 md:mb-0 relative funky-shape-bg">
              <img
-               // src={profilePic} // Uncomment and use your picture
-               src="https://via.placeholder.com/256/174E4F/F3E5C3?text=Harry" // Placeholder
+               src={profilePic}
                alt="Harry - Developer"
                className="rounded-full w-full h-full object-cover border-4 border-primary-light shadow-lg relative z-10"
              />
