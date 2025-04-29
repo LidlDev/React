@@ -6,7 +6,7 @@ import PortfolioSection from './components/PortfolioSection';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import AnimatedSection from './components/AnimatedSection'; // Import animation wrapper
-import Spike from '../assets/Spike.png'
+import Spike from './assets/Spike.png'
 
 function App() {
   // Example portfolio data (replace with your actual projects)
